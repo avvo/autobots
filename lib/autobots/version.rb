@@ -1,3 +1,3 @@
 module Autobots
-  VERSION = "0.2.4pre5"
+  VERSION = "0.2.4pre6"
 end
