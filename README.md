@@ -6,6 +6,15 @@ Separate the loading/serialization of resources from their protocol (http/json, 
 
 We want to improve api response time by loading the minimum amount of data needed to check cache keys. If we miss, we want to optimally load our data, serialize it, cache it and then return it.
 
+## Tested Ruby Version
+| Version     | Result                     |
+| ----------- | -------------------------- |
+| 2.6.6       | :heavy_check_mark:         |
+| 2.5.8       | :heavy_check_mark:         |
+| 2.4.10      | :heavy_check_mark:         |
+| 2.3.8       | :heavy_check_mark:         |
+| 2.2.10      | :heavy_check_mark:         |
+
 ## Problem
 
 Say we have a simple api action:
